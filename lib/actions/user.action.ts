@@ -8,6 +8,7 @@ import { handleError } from '@/lib/utils'
 
 import { CreateUserParams, UpdateUserParams } from '@/types'
 import User from '../models/user.model'
+import Event from '../models/event.model'
 
 export async function createUser(user: CreateUserParams) {
   try {
